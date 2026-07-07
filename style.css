@@ -68,9 +68,11 @@ nav a:hover {
 
 .contact {
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
     font-size: 14px;
+    margin-top: 20px;
 }
 
 
