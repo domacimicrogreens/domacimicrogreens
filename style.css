@@ -85,3 +85,39 @@ nav a:hover {
 .contact a:hover {
     color: #7aa874;
 }
+
+/* Mobilní verze */
+
+@media (max-width: 700px) {
+
+    header {
+        padding: 25px 15px;
+    }
+
+
+    .logo {
+        font-size: 26px;
+    }
+
+
+    nav a {
+        margin: 0 8px;
+        font-size: 14px;
+    }
+
+
+    .hero img {
+        height: 350px;
+    }
+
+
+    .slogan {
+        font-size: 20px;
+    }
+
+
+    .contact {
+        flex-direction: column;
+        gap: 15px;
+    }
+
