@@ -124,6 +124,16 @@ nav a:hover {
 .location {
     text-align: center;
     font-size: 14px;
-    color: #555;
     margin-top: 25px;
+}
+
+
+.location a {
+    text-decoration: none;
+    color: #555;
+}
+
+
+.location a:hover {
+    color: #7aa874;
 }
