@@ -8,16 +8,17 @@ body {
 /* Horní lišta */
 
 header {
-    text-align: center;
-    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
     background-color: white;
 }
 
 
 .logo {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
 }
 
 
@@ -26,8 +27,9 @@ header {
 nav a {
     text-decoration: none;
     color: #333;
-    margin: 0 20px;
-    font-size: 18px;
+    margin-left: 35px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 
