@@ -77,13 +77,16 @@ nav a:hover {
 }
 
 
-.contact a {
+.contact a,
+.location a {
     text-decoration: none;
     color: #555;
+    font-size: 14px;
 }
 
 
-.contact a:hover {
+.contact a:hover,
+.location a:hover {
     color: #7aa874;
 }
 
