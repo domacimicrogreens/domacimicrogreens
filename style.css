@@ -140,3 +140,12 @@ nav a:hover {
 .location a:hover {
     color: #7aa874;
 }
+
+.email-location {
+    text-align: center;
+}
+
+
+.email-location .location {
+    margin-top: 10px;
+}
