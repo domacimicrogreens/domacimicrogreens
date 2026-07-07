@@ -125,6 +125,20 @@ nav a:hover {
     margin-top: 15px;
 }
 
+.back {
+    display: block;
+    text-align: left;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+
+.back:hover {
+    color: #7aa874;
+}
+
 
 /* Mobilní verze */
 
