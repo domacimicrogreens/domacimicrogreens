@@ -149,3 +149,53 @@ nav a:hover {
 .email-location .location {
     margin-top: 10px;
 }
+
+    .products {
+        padding: 40px 20px;
+    }
+
+
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+
+    .plant img {
+        height: 250px;
+    }
+
+/* Galerie microgreens */
+
+.products {
+    text-align: center;
+    padding: 50px 40px;
+}
+
+
+.products h1 {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+
+.plant img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
+.plant p {
+    font-size: 18px;
+    margin-top: 15px;
+}
