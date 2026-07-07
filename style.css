@@ -59,13 +59,27 @@ nav a:hover {
 }
 
 
-.intro h1 {
-    font-size: 42px;
-    margin-bottom: 15px;
+.slogan {
+    font-size: 24px;
+    color: #5f8f5b;
+    margin-bottom: 30px;
 }
 
 
-.intro p {
-    font-size: 24px;
-    color: #5f8f5b;
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 14px;
+}
+
+
+.contact a {
+    text-decoration: none;
+    color: #555;
+}
+
+
+.contact a:hover {
+    color: #7aa874;
 }
