@@ -180,6 +180,21 @@ nav a:hover {
     white-space: pre-line;
 }
 
+.plant {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.2s ease;
+}
+
+.plant:hover {
+    transform: translateY(-5px);
+}
+
+.plant:hover p {
+    color: #7aa874;
+}
+
 
 /* Mobilní verze */
 
