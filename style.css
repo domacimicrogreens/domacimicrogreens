@@ -201,6 +201,11 @@ nav a:hover {
     border-radius: 12px;
 }
 
+.footer-contact {
+    margin-top: 80px;
+    padding: 40px 20px;
+    border-top: 1px solid #e5e5e5;
+}
 
 /* Mobilní verze */
 
