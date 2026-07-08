@@ -139,6 +139,41 @@ nav a:hover {
     color: #7aa874;
 }
 
+/* Detail rostlin */
+
+.detail {
+    padding: 50px 60px;
+}
+
+.detail-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.detail-content img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.detail-text {
+    flex: 1;
+}
+
+.detail-text h1 {
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.detail-text p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
 
 /* Mobilní verze */
 
@@ -214,4 +249,22 @@ nav a:hover {
     .plant img {
         height: 250px;
     }
+
+    .detail {
+    padding: 30px 20px;
+}
+
+.detail-content {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.detail-content img {
+    width: 100%;
+    height: auto;
+}
+
+.detail-text h1 {
+    font-size: 30px;
+}
 
