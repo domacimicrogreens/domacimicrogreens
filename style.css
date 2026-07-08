@@ -207,6 +207,13 @@ nav a:hover {
     border-top: 1px solid #e5e5e5;
 }
 
+.plant-info {
+    margin-top: 35px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.8;
+}
+
 /* Mobilní verze */
 
 @media (max-width: 700px) {
