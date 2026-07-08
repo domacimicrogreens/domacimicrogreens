@@ -152,13 +152,6 @@ nav a:hover {
     margin-top: 40px;
 }
 
-.detail-content img {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 12px;
-}
-
 .detail-text {
     flex: 1;
 }
@@ -193,6 +186,19 @@ nav a:hover {
 
 .plant:hover p {
     color: #7aa874;
+}
+
+.detail-images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.detail-images img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
 }
 
 
