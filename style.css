@@ -369,6 +369,13 @@ nav a:hover {
     }
 
 }
+.unavailable {
+  color: #e88b27;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
 
 /* Mobilní verze */
 
